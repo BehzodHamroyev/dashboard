@@ -37,15 +37,16 @@ export  default Navbar;
 
 
 const NavbarWrapper=style.div`
-width:100%;
-height:200px;
+
+height:90px;
+padding:50px 100px 0 7%;
 display:flex;
 justify-content:space-between;
-align-items:center;
 .logo{
     display:flex;
     justify-content:center;
-    align-items:center;
+    width:100px;
+    align-items:start;
    p{
        font-size:18px;
        margin:0 15px;
@@ -64,6 +65,7 @@ ul{
     display:flex;
     justify-content:space-around;
     align-items:center;
+    margin:0;
     li{
         display:block;
         color:white;
