@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
 import { createGlobalStyle } from "styled-components";
-import Home from './home'
-import AppWrapper from './Appstyle.js'
+import Home from "./home";
+import AppWrapper from "./Appstyle.js";
+import Section1 from "./section1";
 
 const GlobalStyle = createGlobalStyle`
    body{
@@ -11,12 +12,14 @@ const GlobalStyle = createGlobalStyle`
    }
 `;
 
+const App = () => {
+  return (
+    <AppWrapper>
+      <GlobalStyle />
+      <Home />
+      <Section1 />
+    </AppWrapper>
+  );
+};
 
-const  App =()=> {
-  return <AppWrapper>
-    <GlobalStyle/>
-  <Home/>
-  </AppWrapper> 
-}
-
-export default App
+export default App;

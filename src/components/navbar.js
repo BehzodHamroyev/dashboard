@@ -37,7 +37,6 @@ export  default Navbar;
 
 
 const NavbarWrapper=style.div`
-
 height:90px;
 padding:50px 100px 0 7%;
 display:flex;

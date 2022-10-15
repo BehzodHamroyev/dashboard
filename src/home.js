@@ -2,6 +2,8 @@ import React from "react";
 import style from "styled-components";
 import Navbar from "./components/navbar";
 import homeImg from "./data/Group 481777.png";
+import UserNumber from './components/userNumbers'
+
 const Home = () => {
   return (
     <HomeStyle>
@@ -40,7 +42,9 @@ const Home = () => {
         <div className="right">
           <img src={homeImg} alt="" />
         </div>
+        
       </SectionWraper>
+      <UserNumber/>
     </HomeStyle>
   );
 };
@@ -72,7 +76,6 @@ positio:relative;
 
 }
 .right{
-    
     width:50%;
     height:90vh;
     // filter:drop-shadow(16px 16px 20px);
@@ -92,6 +95,6 @@ const HomeStyle = style.div`
 margin:0;
 padding:0;
 box-size:border-box;
-height:500vh;
+// height:500vh;
 
 `;
