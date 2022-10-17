@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 import Home from "./home";
 import AppWrapper from "./Appstyle.js";
 import Section1 from "./section1";
+import Section2 from "./section2";
 
 const GlobalStyle = createGlobalStyle`
    body{
@@ -18,6 +19,7 @@ const App = () => {
       <GlobalStyle />
       <Home />
       <Section1 />
+      <Section2/>
     </AppWrapper>
   );
 };

@@ -5,6 +5,8 @@ import icon2 from "./data/icon2.png";
 import icon3 from "./data/icon3.png";
 import icon4 from './data/icon4.png'
 import icon5 from './data/icon5.png'
+import icon6 from './data/icon6.png'
+import icon7 from './data/icon7.png'
 export default function section1() {
   return (<>
   
@@ -70,61 +72,28 @@ export default function section1() {
         <p>
         Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
         </p>
-        <button>Get Started</button>
+        <div style={{
+            display:'flex',alignItems:'center'
+        }}>
+            <img style={{marginRight:'20px'}} src={icon6}/>
+            <img src={icon7}/>
+        </div>
       </TextSide>
     </SectionWraper>
     
     <SectionWraper>
-      <TextSide>
-        <h3>You do the business, we’ll handle the money.</h3>
+    <TextSide>
+        <h3>Find a better card deal in few easy steps.</h3>
         <p>
-          With the right credit card, you can improve your financial life by
-          building credit, earning rewards and saving money. But with hundreds
-          of credit cards on the market.
-        </p>
+        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.        </p>
         <button>Get Started</button>
       </TextSide>
       <div className="cards">
-        <Card>
-          <div className="icon">
-            <img src={icon1} />
-          </div>
-          <div className="text">
-            <p className="title">Rewards</p>
-            <p className="subTitle">
-              The best credit cards offer some tantalizing combinations of
-              promotions and prizes
-            </p>
-          </div>
-        </Card>
-        <Card>
-          <div className="icon">
-            <img src={icon2} />
-          </div>
-          <div className="text">
-            <p className="title">100% Secured</p>
-            <p className="subTitle">
-              {" "}
-              We take proactive steps make sure your information and
-              transactions are secure.
-            </p>
-          </div>
-        </Card>
-
-        <Card>
-          <div className="icon">
-            <img src={icon1} />
-          </div>
-          <div className="text">
-            <p className="title">Balance Transfer</p>
-            <p className="subTitle">
-              A balance transfer credit card can save you a lot of money in
-              interest charges.
-            </p>
-          </div>
-        </Card>
+      <img style={{marginLeft:"150px"}}  src={icon5} />
       </div>
+      
     </SectionWraper>
+    
   
   
   </>
@@ -132,8 +101,8 @@ export default function section1() {
 }
 
 const SectionWraper = styled.div`
-  margin-top: 100px;
-  padding: 50px 7% 10% 7%;
+  margin-top: 150px;
+  padding: 50px 7% 0 7%;
   display: flex;
   justify-content: space-between;
   /* align-items:center ; */
