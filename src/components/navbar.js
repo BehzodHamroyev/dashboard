@@ -15,15 +15,15 @@ return <NavbarWrapper>
       </li>
       
       <li>
-          Home
+          About Us
       </li>
       
       <li>
-          Home
+      Features
       </li>
       
       <li>
-          Home
+      Solution
       </li>
       </ul>
 
@@ -60,7 +60,7 @@ justify-content:space-between;
     }
 }
 ul{
-    width:30%;
+    width:100%;
     display:flex;
     justify-content:space-around;
     align-items:center;
@@ -69,6 +69,7 @@ ul{
         display:block;
         color:white;
         padding: 0 20px;
+        width:fit-content;
     }
 }
 

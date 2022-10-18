@@ -42,7 +42,6 @@ const Home = () => {
         <div className="right">
           <img src={homeImg} alt="" />
         </div>
-        
       </SectionWraper>
       <UserNumber/>
     </HomeStyle>
@@ -78,15 +77,12 @@ positio:relative;
 .right{
     width:50%;
     height:90vh;
-    // filter:drop-shadow(16px 16px 20px);
 }
 img{
     position:absolute;
     top:20%;
     left:55%;
     width:45%;
-    // box-shadow: 2px 0px 15px 0.1px grey;
-    // border-radius:15px;
 }
 
 
@@ -95,6 +91,5 @@ const HomeStyle = style.div`
 margin:0;
 padding:0;
 box-size:border-box;
-// height:500vh;
 
 `;
